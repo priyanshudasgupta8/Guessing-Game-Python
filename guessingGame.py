@@ -10,7 +10,7 @@ while True:
             qwerty = int(input('Guess what number I chose (1-9): '))
 
             if (num == qwerty):
-                print('Nice job! You guessed it in', count-1, 'guesses')
+                print('Nice job! You guessed it in', count+1, 'guesses')
                 break
             elif (num < qwerty):
                 print('Almost there... Just a little bit lower')
